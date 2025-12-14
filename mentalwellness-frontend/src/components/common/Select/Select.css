@@ -1,0 +1,26 @@
+.select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.select:disabled {
+  background-color: #f3f4f6;
+  cursor: not-allowed;
+}
+
+.select.input-error {
+  border-color: #ef4444;
+}
+
